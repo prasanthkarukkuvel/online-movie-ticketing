@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<select name="Genre">
+  <g1 >Action</g1>
+  <g2 >Adventure</g2>
+  <g3 >Animation</g3>
+  <g4 >Biography</g4>
+  <g5 >Comedy</g5>
+  <g6 >Crime</g6>
+  <g7 >Documentary</g7>
+  <g8 >Drama</g8>
+  <g9 >Family</g9>
+  <g10 >Fantasy</g10>
+  <g11 >History</g11>
+  <g12 >Horror</g12>
+  <g13 >Music</g13>
+  <g14>Musical</g14>
+  <g15 >Mystery</g15>
+  <g16 >Romance</g16>
+  <g17 >Sci-Fi</g17>
+  <g18 >Short</g18>
+  <g19 >Sport</g19>
+  <g20 >Thriller</g20>
+  <g21 >War</g21>
+  <g22 >Western</g22>
+</select>

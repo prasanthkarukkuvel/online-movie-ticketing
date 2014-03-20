@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rain>
+  <screens>
+    <s1>SCRIN01</s1>
+    <s2>SCRDE02</s2>
+    <s3>SCRES03</s3>
+    <s4>SCRFU04</s4>
+    <s5>SCRDO05</s5>
+  </screens>
+  <shows>
+    <sw1 id="SHMR01" scrid="SCRIN01">9.00 am</sw1>
+    <sw2 id="SHMA02" scrid="SCRIN01">12.10 am</sw2>
+    <sw3 id="SHNO03" scrid="SCRIN01">3.15 pm</sw3>
+    <sw4 id="SHEV04" scrid="SCRIN01">6.20 pm</sw4>
+    <sw5 id="SHNI05" scrid="SCRIN01">9.20 pm</sw5>
+    
+    <sw6 id="SHMR06" scrid="SCRDE02">8.30 am</sw6>
+    <sw7 id="SHMA07" scrid="SCRDE02">11.40 am</sw7>
+    <sw8 id="SHNO08" scrid="SCRDE02">2.50 pm</sw8>
+    <sw9 id="SHEV09" scrid="SCRDE02">6.00 pm</sw9>
+    <sw10 id="SHNI10" scrid="SCRDE02">9.30 pm</sw10>
+    
+    <sw11 id="SHMR11" scrid="SCRES03">9.30 am</sw11>
+    <sw12 id="SHMA12" scrid="SCRES03">12.45 am</sw12>
+    <sw13 id="SHNO13" scrid="SCRES03">3.50 pm</sw13>
+    <sw14 id="SHEV14" scrid="SCRES03">7.00 pm</sw14>
+    <sw15 id="SHNI15" scrid="SCRES03">10.10 pm</sw15>
+
+    <sw16 id="SHMR16" scrid="SCRFU04">9.45 am</sw16>
+    <sw17 id="SHMA17" scrid="SCRFU04">1.00 pm</sw17>
+    <sw18 id="SHNO18" scrid="SCRFU04">4.10 pm</sw18>
+    <sw19 id="SHEV19" scrid="SCRFU04">7.20 pm</sw19>
+    <sw20 id="SHNI20" scrid="SCRFU04">10.30 pm</sw20>
+
+    <sw21 id="SHMR21" scrid="SCRDO05">8.45 am</sw21>
+    <sw22 id="SHMA22" scrid="SCRDO05">12.00 am</sw22>
+    <sw23 id="SHNO23" scrid="SCRDO05">3.15 pm</sw23>
+    <sw24 id="SHEV24" scrid="SCRDO05">6.30 pm</sw24>
+    <sw25 id="SHNI25" scrid="SCRDO05">9.45 pm</sw25>
+  </shows>
+</rain>

@@ -1,0 +1,340 @@
+﻿@import url("fonts/fonts.css");
+.usersign
+{
+    font: 25px "SegoeUI";
+}
+.usersign table
+{
+    margin-top: 40px;
+}
+.active, .passive
+{
+    font-family: "SegoeUI-Light";
+    position: absolute;
+    display: none;
+    margin-top: 0;
+}
+
+.active
+{
+    color: #10BBED;
+    font-size: 55px;
+    display: none;
+}
+
+.passive
+{
+    color: #666;
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 360px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: none;
+}
+
+.passive:hover
+{
+    color: #ccc;
+}
+
+.page
+{
+    color: #aaa;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+#bsign-up, #bsign-in
+{
+    position: absolute;
+}
+
+#bsign-up div p, #bsign-in div p
+{
+    display: table-row;
+}
+
+.bsign-content
+{
+    background: #161616;
+    padding: 30px 40px;
+    border: #1c1c1c solid thin;
+    position: relative;
+    bottom: 30px;
+}
+
+#bsign-up
+{
+    display: none;
+    position: relative;
+}
+
+.insign-info, .upsign-info, .inerror-info
+{
+    color: #F18B1B;
+    position: relative;
+    font-family:"SegoeUI";
+}
+.inerror-info
+{
+    background: #680101; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    color: #fff;
+    border: solid #111 thin !important;
+    padding: 5px 40px 10px 40px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.insign-info
+{
+    bottom: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.upsign-info
+{
+    bottom: 30px;
+}
+
+.sign-right
+{
+    float: right;
+    padding-bottom: 20px;
+}
+
+.sign-left, .insign-left
+{
+    float: left;
+    padding-bottom: 20px;
+}
+
+.insign-left
+{
+    width: 150px;
+}
+
+.sign-left
+{
+    width: 200px;
+}
+
+.sign-right input[type=text], .sign-right input[type=password]
+{
+    width: 230px;
+    height: 30px;
+    border: #000 solid thin;
+    background: #999;
+    color: #000;
+    font: 15px "SegoeUI-SemiBold";
+    line-height: 23px;
+    padding-left: 10px;
+    outline: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.sign-right input[type=text]:focus, .sign-right input[type=password]:focus
+{
+    outline: 0;
+    border: #ccc thin solid;
+    background: #fff;
+}
+
+.button
+{
+    width: 80px;
+    height: 35px;
+    padding-bottom: 5px;
+    font: 18px "SegoeUI";
+    position: relative;
+    left: 100px;
+    margin-right: 30px;
+    top: 5px;
+    background: #111;
+    color: #999;
+    border: #444 solid thin;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background: #06a3d1;
+    color: #fff;
+}
+.button:active
+{
+    background: #111;
+    color: #fff;
+}
+.signup-content
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.signuser
+{
+    float: right;
+    position: relative;
+    bottom: 13px;
+    right: 5px;
+}
+.toperror
+{
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+#toperrinfo, #uptoperrinfo
+{
+    background: #680101;
+    font-size: 19px;
+    position: relative;
+    top: 5px;
+    padding: 5px 40px 10px 40px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 6px 6px;
+    color: #fff;
+    display: none;
+    max-width: 500px;
+}
+.fogpass
+{
+    position: absolute;
+    margin-left: 300px;
+    z-index: 460;
+}
+
+#fgcons
+{
+    display: none;
+}
+#fgshow
+{
+    font-size: 18px;
+    padding: 3px 10px 7px 10px;
+    line-height: 20px;
+    background: #61005a;
+    margin-top: 14px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#fgshow:hover
+{
+    background: #c86004;
+}
+.fbtopinfo
+{
+    background: #c86004;
+    font-size: 20px;
+    height: 30px;
+    padding: 5px 15px;
+    line-height: 25px;
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+}
+#load-r-content
+{
+    text-align: center;
+    display: none;
+}
+#r-load
+{
+    margin-top: 10px;
+    background: #131313;
+    border: #1c1c1c solid thin;
+    padding: 20px 40px;
+}
+#r-success div
+{
+    margin-bottom: 10px;
+}
+
+#r-success div:first-child
+{
+    color: #F18B1B;
+    font-size: 28px;
+}
+#r-success div:nth-child(2)
+{
+    color: #999;
+    font-size: 20px;
+}
+#r-success div:nth-child(3)
+{
+    color: #10bbed;
+    font-size: 30px;
+}
+#r-success div:nth-child(4)
+{
+    color: #535451;
+    font-size: 18px;
+}
+#r-failure div
+{
+    margin-bottom: 10px;
+}
+
+#r-failure div:first-child
+{
+    color: #f12107;
+    font-size: 28px;
+}
+#r-failure div:nth-child(2)
+{
+    color: #999;
+    font-size: 20px;
+}
+#r-failure div:nth-child(3)
+{
+    color: #10bbed;
+    font-size: 30px;
+}
+#r-failure div:nth-child(4)
+{
+    color: #535451;
+    font-size: 18px;
+}
+#f-r-resp
+{display: none;}
+.f-r-s, .f-r-f
+{
+    text-align: center;
+    margin-top: 20px;
+    
+    border: #000 solid thin;
+    padding: 5px;
+    padding-bottom: 10px;
+    color: #f0f6f8;
+    font-size: 20px;
+}
+.f-r-s
+{
+    background: #450176;
+}
+.f-r-f
+{
+    background: #680101;
+}

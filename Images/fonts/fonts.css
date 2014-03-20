@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+				font-family: 'SegoeUI';
+				src: url('segoeui_1.eot');
+				src: url('segoeui_1.eot?#iefix') format('embedded-opentype'),
+						 url('segoeui_1.woff') format('woff'),
+						 url('segoeui_1.ttf') format('truetype'),
+						 url('segoeui_1.svg#segoeui_1') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		   }
+@font-face {
+				font-family: 'SegoeUI-Light';
+				src: url('segoeuil_0.eot');
+				src: url('segoeuil_0.eot?#iefix') format('embedded-opentype'),
+						 url('segoeuil_0.woff') format('woff'),
+						 url('segoeuil_0.ttf') format('truetype'),
+						 url('segoeuil_0.svg#segoeuil_0') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		   }
+@font-face {
+				font-family: 'SegoeUI-SemiBold';
+				src: url('seguisb_0.eot');
+				src: url('seguisb_0.eot?#iefix') format('embedded-opentype'),
+						 url('seguisb_0.woff') format('woff'),
+						 url('seguisb_0.ttf') format('truetype'),
+						 url('seguisb_0.svg#seguisb_0') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+@font-face {font-family:"IDAutomationHC39M";src:url("IDAutomationHC39M.eot?") format("eot"),url("IDAutomationHC39M.woff") format("woff"),url("IDAutomationHC39M.ttf") format("truetype"),url("IDAutomationHC39M.svg#IDAutomationHC39M") format("svg");font-weight:normal;font-style:normal;}
+		   
